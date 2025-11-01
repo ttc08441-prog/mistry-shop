@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<style>
+    .zoom-container img {
+        transition: transform 1s;
+       
+
+    }
+
+    .zoom-container:hover img,
+    .zoom-container:focus img {
+        transform: scale(1.15);
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-secondary sticky-top">
+        <div class="container ">
+            <a class="navbar-brand fs-3 fw-bold" href="#">Mistry Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav m-auto my-4 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button type="button" class="btn   position-relative">
+                        <i class="bi bi-cart3 fs-4"></i>
+                        <span
+                            class="position-absolute mt-2 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            3
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="  bg-secondary-subtle">
+        <nav aria-label="breadcrumb" class="container">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none  text-black">Home</a></li>
+                <li class="breadcrumb-item"><a href="shop.html" class="text-decoration-none text-black ">Shop</a></li>
+
+            </ol>
+        </nav>
+
+    </div>
+
+    <!-- product details -->
+    <section class="container my-5">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class=" text-center ">
+                    <div class=" border p-5 rounded zoom-container">
+                        <img src="https://ghorerbazar.com/cdn/shop/files/Ashwagandha-250.png?v=1761646150&width=360"
+                            class="img-fluid w-100 " alt="" data-aos="zoom-in">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div>
+                    <h4>
+                        Ashwagandha Powder 250g (USDA Organic Certified)</h4>
+                    <p>Tk 1,200.00</p>
+                    <a href="#" class="btn btn-dark btn-lg text-white fw-medium w-100  my-2">Add To Card</a>
+                    <a href="#" class="btn btn-success btn-lg text-white fw-medium w-100 my-2">ক্যাশ অন ডেলিভারিতে
+                        অর্ডার
+                        করুন</a>
+                    <a href="#" class="btn btn-warning btn-lg text-white fw-medium w-100 my-2">Pay Online
+                    </a>
+                    <div>
+                        <h5 class="border-bottom">Description</h5>
+                        <p class="text-muted">
+                            তৈরি হওয়ায় স্বাদ মাটির ঘ্রাণে ভরপুর ও স্বাস্থ্যকর দ্রব্য হিসেবে পরিচিত; গরম/ঠান্ডা দুধ বা
+                            স্মুদি বা পানি কিংবা হালকা খাবারের সঙ্গে মিশিয়ে সহজেই গ্রহীত।
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark p-2">
+        <div class="container mx-auto row ">
+            <div class="col-md-3">
+                <h2 class="text-white text-uppercase border-bottom border-white w-75 ">Mistry Shop</h2>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Compression</a>
+                </p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Formats</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Pricing</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">FAQ</a></p>
+
+
+            </div>
+            <div class="col-md-3 ">
+                <h4 class="text-white border-bottom border-white pb-2 w-75 ">Getting Started</h4>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Compression</a>
+                </p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Formats</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Pricing</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">FAQ</a></p>
+
+
+            </div>
+            <div class="col-md-3 ">
+                <h4 class="text-white border-bottom border-white pb-2 w-50 ">Resources</h4>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Compression</a>
+                </p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Formats</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Pricing</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">FAQ</a></p>
+
+
+            </div>
+            <div class="col-md-3 ">
+                <h4 class="text-white border-bottom border-white  pb-2 w-25  ">Social </h4>
+                <div class="d-flex justify-content-start gap-3 align-items-center">
+                    <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href=""><i
+                                class="bi bi-facebook"></i></a></p>
+                    <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href=""><i
+                                class="bi bi-whatsapp"></i></a></p>
+                    <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href=""><i
+                                class="bi bi-instagram"></i></a></p>
+                    <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href=""><i
+                                class="bi bi-linkedin"></i></a></p>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

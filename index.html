@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-secondary sticky-top">
+        <div class="container ">
+            <a class="navbar-brand fs-3 fw-bold" href="#">Mistry Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav m-auto my-4 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="product-details.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button type="button" class="btn   position-relative">
+                        <i class="bi bi-cart3 fs-4"></i>
+                        <span
+                            class="position-absolute mt-2 top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            3
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://ghorerbazar.com/cdn/shop/files/web-Banner.jpg?crop=center&height=2048&v=1756728692&width=2048"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://ghorerbazar.com/cdn/shop/files/web-Banner.jpg?v=1756728692" class="d-block w-100"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://ghorerbazar.com/cdn/shop/files/web-Banner.jpg?crop=center&height=2048&v=1756728692&width=2048"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Product Section -->
+    <section class="container mx-auto mt-3">
+        <h2 class="text-center text-capitalize text-dark-emphasis">Product section</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="border p-2 text-center rounded">
+                    <div class="">
+                        <img src="https://ghorerbazar.com/cdn/shop/files/Ashwagandha-250.png?v=1761646150&width=360"
+                            class="img-fluid" alt="">
+                    </div>
+                    <div>
+                        <h4>Ashwagandha Powder 250g</h4>
+                        <p>Tk 1,200.00</p>
+                        <a href="#" class="btn btn-warning btn-lg text-white fw-medium">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="border p-2 text-center rounded">
+                    <div class="">
+                        <img src="https://ghorerbazar.com/cdn/shop/files/Ashwagandha-250.png?v=1761646150&width=360"
+                            class="img-fluid" alt="">
+                    </div>
+                    <div>
+                        <h4>Ashwagandha Powder 250g</h4>
+                        <p>Tk 1,200.00</p>
+                        <a href="#" class="btn btn-warning btn-lg text-white fw-medium">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="border p-2 text-center rounded">
+                    <div class="">
+                        <img src="https://ghorerbazar.com/cdn/shop/files/Ashwagandha-250.png?v=1761646150&width=360"
+                            class="img-fluid" alt="">
+                    </div>
+                    <div>
+                        <h4>Ashwagandha Powder 250g</h4>
+                        <p>Tk 1,200.00</p>
+                        <a href="#" class="btn btn-warning btn-lg text-white fw-medium">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Popular Product   -->
+    <section class="container mx-auto my-3">
+        <h2 class="text-center text-capitalize text-dark-emphasis">Popular Product</h2>
+        <div class="row g-3">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://ghorerbazar.com/cdn/shop/files/Sundorbon-1kg.jpg?v=1759313276&width=360"
+                        class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">সুন্দরবনের মধু/Sundarban Honey 1kg</h5>
+                        <p class="card-text">Tk 2,200.00
+                        </p>
+                        <div class="text-center w-100">
+                            <a href="#" class="btn btn-outline-warning text-black w-75">Quick Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://ghorerbazar.com/cdn/shop/files/Sundorbon-1kg.jpg?v=1759313276&width=360"
+                        class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">সুন্দরবনের মধু/Sundarban Honey 1kg</h5>
+                        <p class="card-text">Tk 2,200.00
+                        </p>
+                        <div class="text-center w-100">
+                            <a href="#" class="btn btn-outline-warning text-black w-75">Quick Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://ghorerbazar.com/cdn/shop/files/Sundorbon-1kg.jpg?v=1759313276&width=360"
+                        class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">সুন্দরবনের মধু/Sundarban Honey 1kg</h5>
+                        <p class="card-text">Tk 2,200.00
+                        </p>
+                        <div class="text-center w-100">
+                            <a href="#" class="btn btn-outline-warning text-black w-75">Quick Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://ghorerbazar.com/cdn/shop/files/Sundorbon-1kg.jpg?v=1759313276&width=360"
+                        class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">সুন্দরবনের মধু/Sundarban Honey 1kg</h5>
+                        <p class="card-text">Tk 2,200.00
+                        </p>
+                        <div class="text-center w-100">
+                            <a href="#" class="btn btn-outline-warning text-black w-75">Quick Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://ghorerbazar.com/cdn/shop/files/Sundorbon-1kg.jpg?v=1759313276&width=360"
+                        class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">সুন্দরবনের মধু/Sundarban Honey 1kg</h5>
+                        <p class="card-text">Tk 2,200.00
+                        </p>
+                        <div class="text-center w-100">
+                            <a href="#" class="btn btn-outline-warning text-black w-75">Quick Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://ghorerbazar.com/cdn/shop/files/Sundorbon-1kg.jpg?v=1759313276&width=360"
+                        class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">সুন্দরবনের মধু/Sundarban Honey 1kg</h5>
+                        <p class="card-text">Tk 2,200.00
+                        </p>
+                        <div class="text-center w-100">
+                            <a href="#" class="btn btn-outline-warning text-black w-75">Quick Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- NewsLetter -->
+            <div class="p-5 bg-secondary-subtle rounded">
+                <form class=" mx-auto">
+                    <h2 class="text-center   pb-2  text-uppercase">Newsletter</h2>
+                    <div class="d-flex justify-content-evenly  ">
+                        <label for="Email" class="visually-hidden">Email</label>
+                        <input type="Email" class="form-control  w-75 rounded-0" id="inputPassword2"
+                            placeholder="Email">
+
+                        <button type="submit" class="btn btn-dark btn-lg rounded-0 ">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <footer class="bg-dark p-2">
+        <div class="container mx-auto row ">
+            <div class="col-md-3">
+                <h2 class="text-white text-uppercase border-bottom border-white w-75 ">Mistry Shop</h2>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Compression</a>
+                </p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Formats</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Pricing</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">FAQ</a></p>
+
+
+            </div>
+            <div class="col-md-3 ">
+                <h4 class="text-white border-bottom border-white pb-2 w-75 ">Getting Started</h4>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Compression</a>
+                </p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Formats</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Pricing</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">FAQ</a></p>
+
+
+            </div>
+            <div class="col-md-3 ">
+                <h4 class="text-white border-bottom border-white pb-2 w-50 ">Resources</h4>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Compression</a>
+                </p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Formats</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">Pricing</a></p>
+                <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href="">FAQ</a></p>
+
+
+            </div>
+            <div class="col-md-3 ">
+                <h4 class="text-white border-bottom border-white  pb-2 w-25  ">Social </h4>
+                <div class="d-flex justify-content-start gap-3 align-items-center">
+                    <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href=""><i
+                                class="bi bi-facebook"></i></a></p>
+                    <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href=""><i
+                                class="bi bi-whatsapp"></i></a></p>
+                    <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href=""><i
+                                class="bi bi-instagram"></i></a></p>
+                    <p class="p-0"><a class="text-white text-uppercase text-decoration-none fs-6" href=""><i
+                                class="bi bi-linkedin"></i></a></p>
+
+
+                </div>
+                <p class="text-white fs-3 fw-medium">
+                    <a class="nav-link" href="faq.html"><span id="time"></span>
+                        <script>setInterval(() => time.textContent = new Date().toLocaleTimeString(), 1000)</script>
+                    </a>
+
+                </p>
+
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
